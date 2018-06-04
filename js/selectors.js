@@ -3,7 +3,6 @@
   }
   
   function lastImageSelector() {
-    array= [];
     for (let i = 0; i <  $('div img').length; i++) {
     return $('div img:last')}
   }
