@@ -3,7 +3,9 @@
   }
   
   function lastImageSelector() {
-    $('div img:last-child');
+    array= [];
+    for (let i = 0; i <  $('div img').length; i++) {
+    return $('div img:last')}
   }
   
   function ninjaBabySelector() {
