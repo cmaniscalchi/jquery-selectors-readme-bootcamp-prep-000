@@ -16,6 +16,5 @@
   }
   
   function firstListItem() {
-    for (let i = 0; i <  $('#pic-list').length; i++) {
-      return $('#pic-list ul li');}
+    return $('ul li:first-child');
   }
