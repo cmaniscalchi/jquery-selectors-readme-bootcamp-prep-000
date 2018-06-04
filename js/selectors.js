@@ -16,5 +16,5 @@
   }
   
   function firstListItem() {
-    return $('#pic-list ul li');
+    return $('#pic-list ul li[0]');
   }
