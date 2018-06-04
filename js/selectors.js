@@ -17,5 +17,5 @@
   
   function firstListItem() {
     for (let i = 0; i <  $('#pic-list').length; i++) {
-      return $('#pic-list')[0];}
+      return $('#pic-list');}
   }
